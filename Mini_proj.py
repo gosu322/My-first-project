@@ -14,7 +14,7 @@ game = input("Хотите сыграть?(да/нет)\n")
 while game == "да":
     user_input = input("Введите целое число от 1 до 100\n")
     if not is_valid(user_input):
-        print("А может быть всё-таки введем целое число от 1 до 100?")
+        print("А может быть все-таки введем целое число от 1 до 100?")
         continue
 
     user_num = int(user_input)
