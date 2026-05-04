@@ -28,7 +28,9 @@ name = input("Как тебя зовут?\n").title()
 print(f"Привет, {name}!")
 
 while True:
-    question = input("Задай любой интересующий тебя вопрос(Вопрос должен быть закрытого типа).\n")
+    question = input(
+        "Задай любой интересующий тебя вопрос(Вопрос должен быть закрытого типа).\n"
+    )
     print(random.choice(answers))
     reroll = input("Хочешь задать еще какой-нибудь вопрос?\n").lower()
     if reroll == "да" or reroll == "lf":
